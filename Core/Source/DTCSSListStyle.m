@@ -384,7 +384,7 @@
 		}
 		case DTCSSListStyleTypeSquare:
 		{
-			token = @"\u25aa";
+            token = @"\u25e6";//@"\u25aa";
 			break;
 		}
 		case DTCSSListStyleTypeDecimal:
@@ -449,7 +449,7 @@
 	}
 	else
 	{
-		return [NSString stringWithFormat:@"\x09%@\x09", token];
+		return [NSString stringWithFormat:@"\x09%@ ", token];
 	}
 }
 
